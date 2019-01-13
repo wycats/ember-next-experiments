@@ -1,7 +1,7 @@
 module.exports = {
   title: "Hello VuePress",
   description: "Just playing around",
-
+  base: "/ember-next-experiments",
   plugins: [
     (options, ctx) => {
       const Prism = require("prismjs");
@@ -218,10 +218,6 @@ module.exports = {
             }
           }
         }
-      };
-
-      return {
-        base: "/ember-next-experiments"
       };
     }
   ]
